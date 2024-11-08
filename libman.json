@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/js/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js"
+      ]
+    },
+    {
+      "library": "buzz@1.2.1",
+      "destination": "wwwroot/lib/buzz/",
+      "files": [
+        "dist/buzz.js"
+      ]
+    },
+    {
+      "library": "sweetalert2@11.12.2",
+      "destination": "wwwroot/sweetalert2/",
+      "files": [
+        "dist/sweetalert2.all.js",
+        "dist/sweetalert2.all.min.js",
+        "dist/sweetalert2.css",
+        "dist/sweetalert2.js",
+        "dist/sweetalert2.min.css",
+        "dist/sweetalert2.min.js"
+      ]
+    }
+  ]
+}
